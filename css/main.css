@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  min-height: 600px;
+  background-image: url('../assets/beer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.rounded-button {
+  position: relative;
+  border-radius: 12px;
+  width: 25em;
+  height: 6em;
+  padding: 0.5em;
+  margin-left: calc(50% - 13em);
+  margin-top: 250px;
+  outline: none;
+  font-size: 1.5em;
+  background-color: #1A1F16;
+  font-weight: 500;
+  border: none;
+  opacity: 0.9;
+  color: white;
+}
+
+.content {
+  height: 360px;
+  font-size: 18px;
+  background: #1E3F20;
+  color: white;
+  text-align: justify;
+}
+
+.content:after {
+  content: "";
+  height: 100%;
+  display: block;
+}
